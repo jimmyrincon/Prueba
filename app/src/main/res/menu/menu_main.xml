@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/config"
+        android:title="Iniciar el viaje"
+        android:icon="@drawable/ic_subway_black_24dp"
+        android:orderInCategory="95"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:title="Ver Lugares"
+        android:id="@+id/menu_buscar"
+        android:orderInCategory="90"
+        android:icon="@drawable/ic_ubicacion"
+        app:showAsAction="always|collapseActionView"/>
+
+</menu>
